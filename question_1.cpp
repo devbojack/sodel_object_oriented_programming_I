@@ -24,7 +24,7 @@ class Book {
   public:
     Book(void)
     {
-        bookCount = 1;
+        bookCount = 0;
     }
 
     // Inserts a new Book to the books array
@@ -52,7 +52,7 @@ class Book {
             for (int i = 0; i < bookCount; ++i)
             {
                 std::cout << "\n"
-                << i << ")\n"
+                << i+1 << ")\n"
                 << "Author: " << books[i].author << "\n"
                 << "Title: " << books[i].title << "\n"
                 << "Price: " << books[i].price << "\n"
