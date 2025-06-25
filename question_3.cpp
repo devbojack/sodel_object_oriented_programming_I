@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 using namespace std;
+/*__________________
+Program to set and print a 
+voter’s details
+____________________*/
+
 
 // const int MAX_VOTERS = 5000;
 // VoteDetails structure that defines one Voter
@@ -58,8 +63,8 @@ class Voter {
     // Print the voter's details
     void print_details() const
     {
-        cout << "Voter Card ID: " << voterCardId << '\n';
-        cout << "National ID: " << nationalIdNumber << '\n';
+        cout << "Voter Card Id: " << voterCardId << '\n';
+        cout << "National Id: " << nationalIdNumber << '\n';
         cout << "First Name: " << firstName << '\n';
         cout << "Middle Name: " << middleName << '\n';
         cout << "Surname: " << surname << '\n';
@@ -71,8 +76,8 @@ class Voter {
 
 int main()
 {
-    Voter voter1;
-    voter1.set_details();
-    voter1.print_details();
+    Voter voter;
+    voter.set_details();
+    voter.print_details();
     return 0;
 }
