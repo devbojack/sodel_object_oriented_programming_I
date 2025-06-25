@@ -56,7 +56,7 @@ Write a C++ program that captures the Subscriber name, Phone number and Air time
 constructor, uses a function compute_bonuspoints() to calculate the points awarded, then outputs information as
 follows:
 
-![](/0x00-ES6_basic/pngs/es6.png)
+![](/sodel_object_oriented_programming_I/assets/question_4)
 
 <hr>
 
@@ -68,7 +68,7 @@ captures an employee’s details: employee ID, first name, second name, surname,
   - Create a class called **employee** that captures the above data using the class constructor. The class should also have a function **show_employee()**, which should display employee information.
   - Implement the class using an employee object called **emp_obj.** Sample output is as below:
 
-![](/0x00-ES6_basic/pngs/es6.png)
+![](/sodel_object_oriented_programming_I/assets/question_5)
 
 - b
   - Employees of Fortune Business Systems Ltd contribute 5% of their monthly basic salary towards their individual
